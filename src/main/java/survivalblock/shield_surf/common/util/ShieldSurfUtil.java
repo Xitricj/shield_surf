@@ -41,7 +41,7 @@ public class ShieldSurfUtil {
                 Item item = stackInSlot.getItem();
                 if (player.getItemCooldownManager().isCoolingDown(item)) continue;
                 if (shouldCooldown) {
-                    player.getItemCooldownManager().set(item, 100);
+                    player.getItemCooldownManager().set(item, 120);
                 }
                 return stackInSlot;
             }
